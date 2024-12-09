@@ -5,11 +5,8 @@ Dans le cadre de votre formation en développement web, vous devez créer une ap
 
 ## 🎯 Objectifs pédagogiques
 ### Consignes
-- Structurer les données en réalisant un MCD 
-- Créer et remplir une base de donnée en conséquence
-- Écrire diverses requêtes SQL pour s'assurer de la cohérence de la base de donnée
-- Réaliser un mockup et des wireframes de l'application pour les vues principales
-- Concevoir l'application web en PHP en respectant une architecture Modèles/Vues/Controlleurs
+À compléter
+
 
 ## 🔧 Technologies utilisées
 ### Languages
@@ -20,48 +17,23 @@ Dans le cadre de votre formation en développement web, vous devez créer une ap
 - SQL
 
 ## 💡 Concepts clés abordés
-- **HTML/CSS**
-  - Sémantique HTML
-  - Animations & Transitions
-  - Responsive Design
-  
-- **JavaScript**
-  - Manipulation du DOM
-  - Événements
-  - Fetch API
-  - Gestion des formulaires
-  
-- **PHP**
-  - POO
-  - PDO et requêtes préparées
-  - Sessions
-  - Architecture MVC
-  - Server Side Rendering
-  - Injection des données dans le HTML
-  - Création d'une API
-  
-- **SQL**
-  - CRUD
-  - Jointures
-  - Views
-  - Clés étrangères
-  - Empêcher les Injections SQL
-  - Pré-formattage des données
+À compléter
+
 
 ## 📦 Installation et configuration
 ```bash
 # Cloner le repository
-git clone https://github.com/LouisHyt/Cinema-MVC.git
-cd Cinema-MVC
+git clone https://github.com/LouisHyt/PHP-Authentication
+cd PHP-Authentication
 
 # Configuration de la base de données
 1. Démarrer Laragon (Apache et MySQL)
 2. Accéder à HeidiSQL
-3. Créer une nouvelle base de données 'cinema'
-4. Importer le fichier sql/bdd_cinema.sql
+3. Créer une nouvelle base de données 'php-authentication'
+4. Ajouter une table user avec les champs 'id', 'username', 'email' et 'password'
 
 # Configuration du projet
-1. Modifier les informations de connexion dans model/connect.php:
+1. Modifier les informations de connexion dans utils/Connect.php:
    
 ```
 
@@ -80,16 +52,12 @@ PHP-Authentication/
 ```
 
 ## ✨ Démonstration
-
+À compléter
 
 ## 🏆 Compétences visées
-- Développer une application web complète
-- Mettre en place une architecture MVC
-- Gérer les interactions utilisateur
-- Manipuler une base de données
-- Sécuriser une application web
+À compléter
 
 ---
 Exercice réalisé dans le cadre de la formation Développeur Web Full Stack au sein d'Elan Formation
-- 📅 Date : Novembre/Décembre 2024
+- 📅 Date : Décembre 2024
 - ✍️ Auteur : Louis Hayotte
