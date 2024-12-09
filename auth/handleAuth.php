@@ -54,7 +54,7 @@ if($action === "register"){
         exit();
     }
 
-    //Check if username already taken
+    //Check if username or email already taken
     $pdo = Connect::seConnecter();
     $request = $pdo->prepare("
         SELECT id
