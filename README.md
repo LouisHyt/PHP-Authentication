@@ -30,7 +30,7 @@ cd PHP-Authentication
 1. Démarrer Laragon (Apache et MySQL)
 2. Accéder à HeidiSQL
 3. Créer une nouvelle base de données 'php-authentication'
-4. Ajouter une table user avec les champs id, username, email, password
+4. Ajouter une table user avec les champs 'id', 'username', 'email' et 'password'
 
 # Configuration du projet
 1. Modifier les informations de connexion dans utils/Connect.php:
