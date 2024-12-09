@@ -1,0 +1,79 @@
+.form-container{
+    display: grid;
+    place-content: center;
+    height: 100%;
+    position: relative;
+
+    & > .status-msg{
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 0.5rem 1.2rem;
+        border-radius: 5px;
+        font-size: 1.25rem;
+        max-width: 500px;
+        text-align: center;
+
+        &.success{
+            background-color: rgb(66, 181, 64);
+        }
+
+        &.error{
+            background-color: rgb(201, 64, 64);
+        }
+    }
+
+    & > .inner-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.75rem;
+        background-color: rgb(36, 36, 36);
+        padding: 2rem;
+        border-radius: 5px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    button[type="submit"]{
+        background-color: rgb(85, 116, 194);
+        border: none;
+        width: fit-content;
+        margin-top: 25px;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 10px;
+        font-size: 1.1rem;
+    }
+
+    .form-item{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 10px;
+
+        & > label{
+            color: rgb(177, 177, 177);
+            font-size: 1.15rem;
+        }
+
+        & > input{
+            background-color: rgba(65, 65, 65, 0.662);
+            padding: 0.4rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+
+            &:focus{
+                outline: 2px solid rgb(85, 116, 194);
+            }
+        }
+
+    }
+}
+
