@@ -37,6 +37,11 @@ body{
     padding: 1.5rem;
     align-items: center;
 
+    & > .logo{
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
     & > .actions {
         display: flex;
         gap: 1rem;

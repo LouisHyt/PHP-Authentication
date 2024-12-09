@@ -19,10 +19,13 @@
         <div class="form-container">
             <?php if(isset($_SESSION["statusMsg"])) : ?> 
                 <p class="status-msg <?= $_SESSION["statusMsg"]["status"] ?>"> <?= $_SESSION["statusMsg"]["msg"] ?> </p>
-            <?php endif ?>
+            <?php
+            unset($_SESSION["statusMsg"]); 
+            endif 
+            ?>
             <div class="inner-form">
                 <h1>Register</h1>
-                <form action="./auth/handleForm.php?action=register" method="POST">
+                <form action="./auth/handleAuth.php?action=register" method="POST">
                     <div class="form-item">
                         <label for="username">Username</label>
                         <input type="text" name="username" id="username" required>
