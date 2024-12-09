@@ -67,17 +67,16 @@ cd Cinema-MVC
 
 ## 🚀 Structure du projet
 ```
-Cinema-MVC/
-├── app/                  # Dossier principal de l'application
-│   ├── controller/       # Contrôleurs de l'application
-│   ├── model/            # Modèles de données
-│   ├── view/             # Vues de l'application
-│   ├── services/         # Services utilitaires
-│   ├── public/           # Ressources publiques (CSS, JS, images)
-│   └── index.php         # Point d'entrée de l'application
-├── figma/                # Maquettes et designs Figma
-├── mcd/                  # Modèle Conceptuel et logique des données
-└── sql/                  # Scripts d'importation & autre
+PHP-Authentication/
+├── assets/
+│   └── css/                   
+├── auth/                  
+├── utils/                        
+├── dashboard.php                
+├── index.php                
+├── login.php               
+├── navbar.php                                              
+└── register.php                 
 ```
 
 ## ✨ Démonstration
